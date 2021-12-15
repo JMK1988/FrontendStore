@@ -169,4 +169,26 @@ h3{
 
     }
 }
+.nosotros{
+    display: grid;
+    gap: 3rem;
 
+
+}
+.nosotros__informacion{
+    color: var(--blanco);
+    font-size: 2.5rem;
+    font-family: var(--fuentePrincipal);
+
+
+}
+.nosotros__imagen{
+
+}
+@media (min-width: 768px) {
+    .nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+
+    }
+}
