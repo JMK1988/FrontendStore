@@ -7,7 +7,8 @@
     <title>Frontend Store</title>
     <link rel="stylesheet" href="Style/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style/Style.css">
 </head>
 <body>
@@ -22,7 +23,24 @@
         <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
     </nav>
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="Img/3.jpg" alt="Imagen del producto">
+            <div class="camisa__contenido">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid quisquam alias harum ratione veniam accusantium facere laudantium libero voluptas dicta illum, veritatis beatae optio perspiciatis? Tempora dignissimos libero recusandae!</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talle--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input  class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+    
+        </div>
         
 
     </main>
@@ -30,6 +48,5 @@
         <p class="footer__texto">FrontEnd Store - Todos los derechos reservados</p>
     </footer>
 
-    
 </body>
 </html>
